@@ -4,7 +4,7 @@ const PORT= process.env.PORT;
 const mysql=require("mysql");
 
 // connecting with sql
-mysql.createConnection({
+const database= mysql.createConnection({
     user:'root',
     password:'',
     database:'bpuproject',
